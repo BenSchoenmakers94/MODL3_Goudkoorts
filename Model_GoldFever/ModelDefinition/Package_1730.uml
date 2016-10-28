@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="53a72296-62c5-4773-a2a1-cecc19c67f11"
+  name="View" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="40488fa2-4f35-412c-91e9-b5d3554a57b6"
+        name="ConsoleView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c7bd9f72-d209-455f-b728-5d93260b74d1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f913fb35-e900-4ce5-a2eb-9c70e8c7e09e">
+                <propertyInstance
+                  Id="42c3c544-8bfe-47fc-8f06-5f9fc18fd34c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ade2ccc9-daf1-4fe7-b64c-951f95d627d7">
+                <propertyInstance
+                  Id="a1eee98a-a873-4b2d-956c-0444e31b7276"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a84ce586-3f42-4f16-ae89-4597847da346">
+                <propertyInstance
+                  Id="782d0f76-4e1d-4d24-ac42-8db2b8c6ff7c"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4ea869ed-6aa4-4e63-a052-2175b56089f0">
+                <propertyInstance
+                  Id="3e634512-0a11-44df-bcc9-77ddf2fa6b3f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b4690766-a038-4737-b7a6-81baf12b29ea">
+                <propertyInstance
+                  Id="0ba5b6c4-a6cf-49a5-916b-0024a78b07b2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9187d908-8986-4dad-b4d0-20591e4e6683"
+            name="showGame"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="995b3f16-be01-4555-aa34-6311ca6420e2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d245e58f-da29-4102-9cb0-44eb08b10bf9">
+                    <propertyInstance
+                      Id="613e76d3-8840-4a5b-9aa3-021ab4901f11"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb5f7595-aa4a-4d7a-b3d3-14ca1da0138a">
+                    <propertyInstance
+                      Id="cca8516e-fd89-423b-80ad-28cd49c2c0a9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce3aa933-0249-4606-9cd7-567402d39867">
+                    <propertyInstance
+                      Id="af7e6908-9ab7-4a33-8fd6-1799b4076f6b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16c71c80-3841-4a09-a2e8-38ccdb3b4323">
+                    <propertyInstance
+                      Id="635bd4a5-59ab-477b-9c80-9dda6e262e7c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="707f0285-3724-40ea-8ec8-253dba2ac9e1">
+                    <propertyInstance
+                      Id="022a7b98-6bb1-4fea-a43f-2a8937f9a854"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="beee1dff-fbea-4d51-a775-8e57b581bc07">
+                    <propertyInstance
+                      Id="da5d8cb0-728e-4e3b-a5a6-067366478fd8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7dd6e820-8b29-4d4a-bc4f-96fd87a04caa"
+                  name="gameInStrings"
+                  direction="In">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="28c2cb20-4dff-4e81-8934-aadd660e5017"
+                      LastKnownName="String[]"
+                      LastKnownLocation="Package_1923.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

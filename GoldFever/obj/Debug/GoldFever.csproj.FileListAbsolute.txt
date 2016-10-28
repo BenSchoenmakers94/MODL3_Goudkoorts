@@ -1,0 +1,6 @@
+C:\Users\Ben\Documents\GitHub\MODL3_Goudkoorts\Model_GoldFever\GoldFever\bin\Debug\GoldFever.exe.config
+C:\Users\Ben\Documents\GitHub\MODL3_Goudkoorts\Model_GoldFever\GoldFever\bin\Debug\GoldFever.exe
+C:\Users\Ben\Documents\GitHub\MODL3_Goudkoorts\Model_GoldFever\GoldFever\bin\Debug\GoldFever.pdb
+C:\Users\Ben\Documents\GitHub\MODL3_Goudkoorts\Model_GoldFever\GoldFever\obj\Debug\GoldFever.csprojResolveAssemblyReference.cache
+C:\Users\Ben\Documents\GitHub\MODL3_Goudkoorts\Model_GoldFever\GoldFever\obj\Debug\GoldFever.exe
+C:\Users\Ben\Documents\GitHub\MODL3_Goudkoorts\Model_GoldFever\GoldFever\obj\Debug\GoldFever.pdb

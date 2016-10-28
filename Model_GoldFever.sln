@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Model_GoldFever", "Model_GoldFever\Model_GoldFever.modelproj", "{13FCFA76-D2D3-4BE7-BFC4-C0611490B26B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model_GoldFeverLib", "Model_GoldFeverLib\Model_GoldFeverLib.csproj", "{F27574BD-47C2-4651-864D-50AC83CBC427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldFever", "GoldFever\GoldFever.csproj", "{B1574342-1817-4935-A17C-ACAD2E338200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13FCFA76-D2D3-4BE7-BFC4-C0611490B26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FCFA76-D2D3-4BE7-BFC4-C0611490B26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FCFA76-D2D3-4BE7-BFC4-C0611490B26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FCFA76-D2D3-4BE7-BFC4-C0611490B26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27574BD-47C2-4651-864D-50AC83CBC427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27574BD-47C2-4651-864D-50AC83CBC427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27574BD-47C2-4651-864D-50AC83CBC427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27574BD-47C2-4651-864D-50AC83CBC427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1574342-1817-4935-A17C-ACAD2E338200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1574342-1817-4935-A17C-ACAD2E338200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1574342-1817-4935-A17C-ACAD2E338200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1574342-1817-4935-A17C-ACAD2E338200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

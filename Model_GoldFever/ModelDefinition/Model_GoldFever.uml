@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="3a573ac7-217a-4728-b0e3-ad060eac0777"
+  name="Model_GoldFever" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <appliedStereotypesInternal>
+    <stereotypeInstance
+      Id="f18ecc93-b3bc-453b-8707-8e6039f2e47b"
+      name="namespace"
+      profile="CSharpProfile">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="2f824a7a-49a3-46a2-89cf-9bec99f3cb39">
+          <propertyInstance
+            Id="eb818b9e-afd6-412c-9b14-7e3bdb44370e"
+            name="BaseName" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="2516e234-bd93-4b11-9947-b66a15be73f8">
+          <propertyInstance
+            Id="934bc841-7fa9-4762-a1b4-ed8445d9bc8f"
+            name="ClrAttributes" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="03b42bc5-54fc-4c26-85b9-53106c58d407">
+          <propertyInstance
+            Id="764886c4-db15-4bd8-98dc-250f2b65043f"
+            name="Usings" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance
+      Id="ea832be2-c710-4a6e-b4cf-38d17ae58033"
+      name="TextTemplateBindings"
+      profile="TextTemplateBindings">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="613db7f9-b1a3-4f25-bb26-daac2091b448">
+          <propertyInstance
+            Id="45ed204b-a70d-441d-9677-4501de536920"
+            name="Alias"
+            value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="0ce9ebd0-363c-4ed6-8371-5f6565bb6a7f">
+          <propertyInstance
+            Id="fd49da67-458e-4715-ae2d-6ceeb2538dce"
+            name="TemplateFilePath"
+            value="ClassTemplate=D:\SCHOOL\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=D:\SCHOOL\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=D:\SCHOOL\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=D:\SCHOOL\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="2fed5987-5a4c-4f22-943c-5f06735f130a">
+          <propertyInstance
+            Id="1df60f25-eaac-4e2a-b6b9-b5d96e26bfc7"
+            name="ProjectPath"
+            value="ClassTemplate=..\Model_GoldFeverLib\Model_GoldFeverLib.csproj|EnumTemplate=..\Model_GoldFeverLib\Model_GoldFeverLib.csproj|InterfaceTemplate=..\Model_GoldFeverLib\Model_GoldFeverLib.csproj|StructTemplate=..\Model_GoldFeverLib\Model_GoldFeverLib.csproj" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="73383d75-0f84-4336-a4a6-953f5d62f44f">
+          <propertyInstance
+            Id="5925bba0-72bd-4286-afbb-6bea68cc1bb6"
+            name="TargetDirectory"
+            value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="16195dbc-96dc-4a10-baca-0ead69b05ca8">
+          <propertyInstance
+            Id="3fd9b7f7-b6a4-42ec-b299-1ae1718a8558"
+            name="TargetName"
+            value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="c277e41c-a83b-4f10-bd57-49a7bbc93dcd">
+          <propertyInstance
+            Id="de227410-5dca-40f1-961f-422921b28134"
+            name="Overwrite"
+            value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="79d32314-e7c9-40c8-b2dc-184cd8fd894c">
+          <propertyInstance
+            Id="b653c4dd-5cac-45df-855f-3b6c2b0ea8a2"
+            name="Parameters" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="1be5e45a-a11f-4210-8b3c-e53814136dc0">
+      <profileInstance
+        Id="7c105403-53a1-4711-9e29-6a8684b01708"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="ddc0a800-7021-4eb4-ad6a-6880f3f00dd9">
+      <profileInstance
+        Id="0e52bfa1-c036-4f77-b30a-ecc0b60db239"
+        name="TextTemplateBindings" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="5502f147-b843-4d5c-88ae-018dd33a1082"
+        name="bool" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="978807b5-d636-41a3-9883-271d6539867a"
+        name="void" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="e01d6174-8dac-4b46-80df-61754999b47f"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fd3d0dd8-4cf2-4ee8-a907-27aa29a8417c"
+        name="NormalTrack"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="0e090650-01f7-4fd3-8227-9520a22f2a53"
+            isSubstitutable="false">
+            <classMoniker
+              Id="09980ff9-4b66-4084-b97f-fa6deeb9de01"
+              LastKnownName="LandTrack"
+              LastKnownLocation="Package_1407.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3d30524d-6311-4eba-b825-eff7b3bcf30b"
+        name="SeaRoute"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="027acc98-6380-4663-803d-e57b4d95eecc"
+            isDerived="false"
+            sourceEndRoleName="SeaRoute"
+            targetEndRoleName="SeaTile"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="b31479ac-7d43-42db-b6bd-203655d9a86c"
+              LastKnownName="SeaTrack"
+              LastKnownLocation="Package_1407.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fdcba873-5861-433d-af53-a91091f0ad79"
+                  name="SeaRoute"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0770d178-1db2-4725-a628-14a291b2158f"
+                  name="SeaTile"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="2a306e4c-1d1c-4142-bda5-df4cdbf4dab9"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="1457552a-f0e2-49ed-9212-6d147139a4ea"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="bd022e74-ac30-4524-8192-44cba45f1b00"
+            name="canMove"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="764951e0-d389-4f3c-81b6-147471154669"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="Model_GoldFever.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6fc266ac-202a-47ad-91fd-9113222ddc5a"
+            name="setSail"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8f5a5b14-7df6-424d-9725-8ef034dac2e6"
+                  direction="Return"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="45c13c1d-2820-4de7-8366-33fa10bdb63b"
+        name="Dock"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="7d339270-fc37-48f9-8fda-3bf3750a2ab5"
+            isSubstitutable="false">
+            <classMoniker
+              Id="b31479ac-7d43-42db-b6bd-203655d9a86c"
+              LastKnownName="SeaTrack"
+              LastKnownLocation="Package_1407.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c74febab-008f-4ee1-aa70-ac96894c225b"
+        name="Class2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="12b0ae36-6f76-44c3-a2db-38b8bf6277a1"
+        name="bol" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="8a2afb88-ece7-481d-930a-38223cbe6afe"
+        name="Model_GoldFever::Track[]" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0883affd-8e73-46b3-b2ee-6e95e690c55d"
+        LastKnownName="Model"
+        LastKnownLocation="Package_1407.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="53a72296-62c5-4773-a2a1-cecc19c67f11"
+        LastKnownName="View"
+        LastKnownLocation="Package_1730.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8553f04a-07c9-45b0-896c-af3ac5c0bba8"
+        LastKnownName="Proces"
+        LastKnownLocation="Package1_1730.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b9ba4aa4-42cf-4f3f-b16e-e87718a0654e"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package_1923.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4ab19002-b15d-49b7-aaa9-91a2aafcdcdd"
+        LastKnownName="Package1"
+        LastKnownLocation="Package_2036.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
